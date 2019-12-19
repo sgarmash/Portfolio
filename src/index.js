@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import '../node_modules/reset-css/sass/_reset.scss';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
